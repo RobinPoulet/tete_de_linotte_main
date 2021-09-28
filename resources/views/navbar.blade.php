@@ -8,7 +8,7 @@
             class="d-inline-block align-top"
             alt="logo"
         />
-        Noé Brasserie</a
+        Tête de linotte</a
     >
     <button
         class="navbar-toggler"
@@ -27,7 +27,7 @@
                 <a class="nav-link" href="/">Accueil</a>
             </li>
 
-            <!-- Dropdown-menu-bière -->
+            <!-- Dropdown-menu -->
             <li class="nav-item dropdown">
                 <div class="dropdown">
                     <button
@@ -37,71 +37,18 @@
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                     >
-                        Nos bières
+                        Nos Créations
                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li>
-                            <a class="dropdown-item" href="/product">Catalogue</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider"/>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/product/1">La Biquette</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/product/2">La Lion</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/product/3">La Rakoon</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/product/4">La Grizzly</a>
-                        </li>
-                    </ul>
+
                 </div>
             </li>
 
-            <!-- Dropdown-menu-équipe -->
-            <li class="nav-item dropdown">
-                <div class="dropdown">
-                    <button
-                        class="btn btn-secondary dropdown-toggle"
-                        type="button"
-                        id="dropdown-menu-btn2"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                    >
-                        Équipe
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li>
-                            <a class="dropdown-item" href="/team">Membres</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider"/>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/team/1">Hubert</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/team/2">Aurélien</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/team/3">Lucie</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="/team/4">Hercule</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
-            </li>
+
+
         </ul>
 
         <!-- Boutton-panier -->
-        <a class="btn btn-primary" href="{{route('products.index')}}" role="button">Back Office</a>
+        <a class="btn btn-primary" href="/backoffice/products" role="button">Back Office</a>
 
     </div>
 </nav>

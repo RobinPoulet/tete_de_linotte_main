@@ -24,6 +24,6 @@ Route::get('/', function () {
 
 Route::get('/product', [ProductController::class, 'productPage']);
 
-Route::resource('backoffice/products', BackOfficeController::class);
+Route::resource('/backoffice/products', BackOfficeController::class);
 
 

@@ -8,7 +8,7 @@
     <!-- Description-référencement -->
     <meta
         name="description"
-        content="Ici, nous vendons de la bière de qualité alors préparez votre palais car vous risquez d'être surpris de la meilleure des façons!"
+        content="Création fantaisie"
     />
 
     <!-- Bootstrap-5 -->
@@ -24,11 +24,11 @@
 
     @yield('css_optionnel')
 
-    <title>Bières de la Brasserie Noé</title>
+    <title>Tête de linotte</title>
 </head>
 <body>
 
-{{--@include('navbar')--}}
+@include('navbar')
 
 @yield('content')
 
