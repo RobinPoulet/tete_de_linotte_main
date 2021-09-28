@@ -1,0 +1,62 @@
+.navbar, .dropdown-menu{
+  background-color: rgb(206, 86, 30);
+  color: black;
+}
+.navbar{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.navbar-nav{
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+.navbar img{
+  border-radius: 50%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+#dropdown-menu-btn1, #dropdown-menu-btn2{
+  background-color: rgb(206, 86, 30);
+  color: black;
+  border-color: black;
+}
+body {
+  background-image: url(../photos/bieres.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.titre-biere{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 10px;
+}
+.photo-bieres{
+  justify-items: center;
+  border-radius: 30%;
+  width: 300px;
+  height: 400px;
+}
+#photo-rakoon{
+  border-radius: 40%;
+}
+#biere{
+  font-size: 2em;
+}
+.table-prix{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: auto;
+  text-align: center;
+}
+.except{
+  text-align: left;
+}
+#commander, #retour{
+  width: fit-content;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 1em;
+}

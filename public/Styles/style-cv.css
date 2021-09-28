@@ -1,0 +1,145 @@
+body {
+  background-image: url(../photos/bieres.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* nav bar */
+.navbar,
+.dropdown-menu {
+  background-color: rgb(206, 86, 30);
+  color: black;
+}
+.navbar {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.navbar-nav {
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+.navbar img {
+  border-radius: 50%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+#dropdown-menu-btn1,
+#dropdown-menu-btn2 {
+  background-color: rgb(206, 86, 30);
+  color: black;
+  border-color: black;
+}
+/* fin nav bar */
+
+/* image perso */
+
+/* hercule */
+
+#hercule .col {
+  text-align: -webkit-center;
+  align-self: center;
+}
+
+#hercule img {
+  border: solid;
+}
+
+#hercule h2 {
+  font-family: serif;
+  -webkit-text-stroke: thick;
+  text-transform: uppercase;
+  color: rgb(252, 189, 18);
+}
+
+/* hubert */
+
+#hubert img {
+  border-style: groove;
+}
+
+#hubert .col {
+  text-align: -webkit-center;
+  align-self: center;
+}
+
+#hubert h2 {
+  font-style: oblique;
+  text-decoration-line: underline;
+  color: blue;
+}
+
+#hubert .color1 {
+  color: white;
+  text-decoration-line: underline;
+}
+
+#hubert .color2 {
+  color: red;
+  text-decoration-line: underline;
+}
+/* aurel */
+
+#aurel img {    border-style: outset;
+  border-color: darkblue;
+  mix-blend-mode: luminosity;
+}
+
+#aurel .col {
+  align-self: center;
+}
+
+#aurel h2 {
+      mix-blend-mode: color-burn;
+      font-size: xxx-large;
+      font-weight: normal;
+}
+
+/* lucie */
+
+#lucie .col {
+  align-self: center;
+}
+
+#lucie img {    border-color: burlywood;
+  border-style: solid;
+}
+
+#lucie h2 {    font-family: none;
+  color: chocolate;
+}
+
+/* fin image perso */
+
+/* debut tableau */
+.table.table-bordered {
+  max-width: 80%;
+  border-color: rgb(0, 0, 0);
+  border-width: medium;
+  border-collapse: separate;
+}
+
+.table th {
+  background-color: orangered;
+  border-width: medium;
+}
+.table td {
+  background-color: orangered;
+}
+/* fin tableau */
+
+@media (max-width: 500px) {
+  .rounded-pill {
+    width: 40%;
+    border-image-width: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

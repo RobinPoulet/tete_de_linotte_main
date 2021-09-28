@@ -1,0 +1,67 @@
+.navbar,
+.dropdown-menu {
+  background-color: rgb(206, 86, 30);
+  color: black;
+}
+.navbar {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.navbar-nav {
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+.navbar img {
+  border-radius: 50%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+#dropdown-menu-btn1,
+#dropdown-menu-btn2 {
+  background-color: rgb(206, 86, 30);
+  color: black;
+  border-color: black;
+}
+body {
+  background-image: url(../photos/bieres.png);
+
+  background-size: cover;
+}
+.container-fluid {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.row h1 {
+  padding: 50px;
+  color: black;
+  font-size: 4em;
+}
+.col-sm {
+  background-image: url(../photos/thumb-1920-370799.jpg);
+  padding: 20px;
+  margin: 25px;
+  border-radius: 50px;
+}
+.col-sm img {
+  border-radius: 50px;
+}
+.T {
+  color: aliceblue;
+  font-size: 25px;
+}
+.col-sm h2 {
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-size: cover;
+  }
+  .col-sm {
+    margin: 25px 0px;
+  }
+}
