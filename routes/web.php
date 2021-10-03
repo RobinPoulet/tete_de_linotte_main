@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\ProductController;
 use App\Http\Controllers\BackOfficeController;
 use Illuminate\Support\Facades\Route;
 
@@ -22,7 +21,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/product', [ProductController::class, 'productPage']);
+
 
 Route::resource('/backoffice/products', BackOfficeController::class);
 
